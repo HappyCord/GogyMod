@@ -50,12 +50,12 @@ public abstract class GogyItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return Float.MAX_VALUE;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return Float.MAX_VALUE;
 			}
 		}, slot, properties);
 	}

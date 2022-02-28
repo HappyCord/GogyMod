@@ -16,7 +16,7 @@ public class GogyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 420f;
+				return Float.MAX_VALUE;
 			}
 
 			public float getAttackDamageBonus() {
