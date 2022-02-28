@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "diablotest:blocks/images",
+    "up": "diablotest:blocks/images",
+    "north": "diablotest:blocks/images",
+    "east": "diablotest:blocks/images",
+    "south": "diablotest:blocks/images",
+    "west": "diablotest:blocks/images",
+    "particle": "diablotest:blocks/images"
+  }
+}

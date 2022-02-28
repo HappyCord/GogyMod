@@ -1,0 +1,89 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiabloMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diablo_mod"
+    },
+    {
+      "name": "Gogy",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gogy",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OakleykillOnKeyPressed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oakleykill_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oakleykill",
+      "type": "keybind",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oakleykill"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabdiablo_mod": "Diablo Mod",
+      "item.diablotest.gogy_leggings": "Gogy Leggings",
+      "item.diablotest.gogy_boots": "Gogy Boots",
+      "key.diablotest.oakleykill": "justdielol",
+      "item.diablotest.gogy_helmet": "Gogy Helmet",
+      "item.diablotest.gogy_chestplate": "Gogy Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Keybinds",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "diablotest",
+    "modName": "Diablotest",
+    "version": "1.0.0",
+    "author": "Ash, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.diablotest",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

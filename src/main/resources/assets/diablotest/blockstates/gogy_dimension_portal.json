@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "diablotest:block/gogy_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "diablotest:block/gogy_dimension_portal_ns"
+    }
+  }
+}
