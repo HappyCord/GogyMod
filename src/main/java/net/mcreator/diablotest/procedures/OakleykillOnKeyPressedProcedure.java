@@ -8,6 +8,6 @@ public class OakleykillOnKeyPressedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.setHealth(0);
+			_entity.setHealth(999999);
 	}
 }
